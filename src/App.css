@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Yanone+Kaffeesatz&display=swap');
+body{
+    background: url('./1.png');
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+p{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+   width: 400px;
+    border-radius: 50px;
+    border: darkgoldenrod 1px solid;
+    position: fixed;
+    left: 36%;
+    top: 32%;
+    background-color: white;
+}
+
+.app{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.form{
+    padding-bottom: 20px;
+}
+
+input[type=text]{
+    padding-right: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.btn {
+    margin-top:10px ;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+  } 
+  .btn:hover { background: rgb(53, 167, 110); }
+  .btn:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+  }
+
+  .weat{
+      font-size: 20px;
+      text-align: left;
+  }
+
+  p{
+      cursor: default;
+transition: 1s;
+  }
+
+  p:hover{
+      color: red;
+  }
